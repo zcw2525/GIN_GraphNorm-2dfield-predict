@@ -1,0 +1,34 @@
+# Mac系统垃圾文件
+.DS_Store
+
+# Python缓存文件（你的项目里有__pycache__，必忽略）
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*$py.class
+
+# 日志文件夹（你的项目有logs/lightning_logs/running_log.txt，按需忽略）
+#logs/
+#lightning_logs/
+# 若想保留running_log.txt（训练日志），就注释掉下面这行；想忽略就保留
+# running_log.txt
+
+# 结果/数据缓存文件夹（你的项目有results/，按需忽略）
+results/
+# 测试数据若想推送到GitHub，就注释掉下面这行；想忽略就保留
+# data_test.py
+0.1.csv
+/dataset
+
+# IDE配置文件（你的项目有.idea/，必忽略，本地开发配置不用推）
+.idea/
+
+# Conda/虚拟环境（若后续建了环境，提前忽略）
+env/
+venv/
+.conda/
+
+# 临时文件夹
+temp/
+tmp/
